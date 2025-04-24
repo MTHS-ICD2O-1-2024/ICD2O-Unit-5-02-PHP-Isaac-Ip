@@ -36,12 +36,12 @@
           $userChoice = $_GET["symbol"];
 
               // process 
-        if ($userChoice == positive) {
-        $randomNumber = rand(1, 6)
-  echo "Your random number is: . $randomnumber . "";
+        if ($userChoice == "positive") {
+        $randomNumber = rand(1, 6);
+        echo "Your random number is: " . $randomNumber;
 } else {
-        $randomNumber = rand(-6, -1)
-            echo "Your random number is:" . $randomNumber . "";
+        $randomNumber = rand(-6, -1);
+        echo "Your random number is: " . $randomNumber;
 }
           ?>
         </div>
