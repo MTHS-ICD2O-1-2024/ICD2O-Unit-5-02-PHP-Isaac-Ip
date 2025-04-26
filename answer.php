@@ -31,7 +31,7 @@
         <img src="./images/positive_negative.jpg" alt="positive_negative" width="250" />
       </div>
       <div class="page-content-php">
-        <div id="user-info">
+        <div id="submit">
           <?php
           $userChoice = $_GET["symbol"];
 
